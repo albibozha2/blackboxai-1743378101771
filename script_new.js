@@ -1,14 +1,26 @@
-// Main application class
-class ChatApplication {
-    constructor() {
-        try {
-            this.initElements();
-            this.initResponses();
-            this.setupEventListeners();
-        } catch (error) {
-            this.showError(error.message);
-            throw error; // Re-throw to prevent further execution
-        }
+// Application factory function
+function createChatApplication() {
+    const app = {
+        chatBox: null,
+        userInput: null,
+        sendBtn: null,
+        initialResponses: {
+            "pershendetje": "Përshëndetje! Si mund t'ju ndihmoj sot?",
+            "si je": "Unë jam mirë, faleminderit për pyetjen! Si mund t'ju shërbej?",
+            "faleminderit": "Gjithmonë me kënaqësi! A ka ndonjë gjë tjetër për të cilën mund të ndihmoj?",
+            "mirupafshim": "Mirupafshim! Mos ngurroni të më kontaktoni përsëri nëse keni nevojë për ndihmë.",
+            "default": "Më vjen keq, nuk e kuptova plotësisht. Mund të përsërisni ose të më pyesni diçka tjetër?"
+        },
+        learnedResponses: JSON.parse(localStorage.getItem('learnedResponses')) || {}
+    };
+
+    // Initialize elements
+    app.chatBox = document.getElementById('chat-box');
+    app.userInput = document.getElementById('user-input');
+    app.sendBtn = document.getElementById('send-btn');
+    
+    if (!app.chatBox || !app.userInput || !app.sendBtn) {
+        throw new Error('Required DOM elements not found');
     }
 
     initElements() {
