@@ -1,0 +1,40 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 724-864-215
+127.0.0.1 - - [30/Mar/2025 23:23:02] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [30/Mar/2025 23:23:06] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [30/Mar/2025 23:23:07] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [30/Mar/2025 23:23:17] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [30/Mar/2025 23:23:28] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [30/Mar/2025 23:25:36] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-30 23:30:28,877 - WARNING -  * Debugger is active!
+2025-03-30 23:30:28,877 - INFO -  * Debugger PIN: 114-877-150
+2025-03-30 23:30:52,412 - INFO - 127.0.0.1 - - [30/Mar/2025 23:30:52] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-30 23:31:37,049 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2025-03-30 23:31:37,049 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-30 23:31:37,051 - INFO -  * Restarting with stat
+2025-03-30 23:31:37,257 - WARNING -  * Debugger is active!
+2025-03-30 23:31:37,257 - INFO -  * Debugger PIN: 114-877-150
+2025-03-30 23:31:42,558 - INFO - 127.0.0.1 - - [30/Mar/2025 23:31:42] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-30 23:31:42,771 - INFO - 127.0.0.1 - - [30/Mar/2025 23:31:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-30 23:31:45,346 - INFO - 127.0.0.1 - - [30/Mar/2025 23:31:45] "GET /api/health HTTP/1.1" 200 -
+2025-03-30 23:31:50,541 - INFO - 127.0.0.1 - - [30/Mar/2025 23:31:50] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-30 23:31:51,209 - INFO - 127.0.0.1 - - [30/Mar/2025 23:31:51] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-30 23:31:51,430 - INFO - 127.0.0.1 - - [30/Mar/2025 23:31:51] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-30 23:32:29,144 - INFO - 127.0.0.1 - - [30/Mar/2025 23:32:29] "GET /api/health HTTP/1.1" 200 -
+2025-03-30 23:32:29,153 - INFO - 127.0.0.1 - - [30/Mar/2025 23:32:29] "GET /api/health HTTP/1.1" 200 -
+2025-03-30 23:33:27,513 - INFO - 127.0.0.1 - - [30/Mar/2025 23:33:27] "GET /api/health HTTP/1.1" 200 -
+2025-03-30 23:34:10,185 - INFO - 127.0.0.1 - - [30/Mar/2025 23:34:10] "GET /api/health HTTP/1.1" 200 -
+2025-03-30 23:34:15,758 - INFO - 127.0.0.1 - - [30/Mar/2025 23:34:15] "GET /api/health HTTP/1.1" 200 -
+2025-03-30 23:35:58,822 - INFO - 127.0.0.1 - - [30/Mar/2025 23:35:58] "GET /api/health HTTP/1.1" 200 -
+2025-03-30 23:36:24,687 - INFO - 127.0.0.1 - - [30/Mar/2025 23:36:24] "GET /api/health HTTP/1.1" 200 -
+2025-03-30 23:36:34,099 - INFO - 127.0.0.1 - - [30/Mar/2025 23:36:34] "GET /api/health HTTP/1.1" 200 -
+2025-03-30 23:36:34,208 - INFO - 127.0.0.1 - - [30/Mar/2025 23:36:34] "GET /api/health HTTP/1.1" 200 -
